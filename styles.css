@@ -1,0 +1,198 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+}
+
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+#headerContainer {
+  max-width: 1170px;
+  height: 65px;
+  margin: 0 auto;
+}
+
+#header-left {
+  float: left;
+}
+
+#header-left img {
+  width: 300px;
+  margin: 15px 20px;
+  line-height: 65px;
+}
+
+#header-right {
+  float: right;
+}
+
+#header-right a{
+  text-decoration: none;
+  color: white;
+  line-height: 65px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+#header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+#copyWrapper {
+  background-image: url(/img/copyImage.jpg);
+  background-size: cover;
+}
+
+#copyContainer {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 180px 0 100px 0;
+}
+
+.copyTitle {
+  color: white;
+}
+
+.copyTitle h1 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+.btnWrapper p {
+  color: white;
+  margin: 15px 0;
+}
+
+.signup {
+  background-color: #239b76;
+  opacity: 0.8;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 15px;
+  opacity: 0.8;
+}
+
+.twitter {
+  background-color: #55acee;
+  opacity: 0.8;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+#contentsWrapper {
+  background-color: #f7f7f7
+}
+
+#contentsContainer {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 600px;
+}
+
+.contentsTitle {
+  padding-top: 50px;
+}
+
+.contents {
+  padding-top: 30px;
+}
+
+.content {
+  float: left;
+  width: 25%;
+}
+
+.contentIcon {
+  position: relative;
+}
+
+.contentIcon P {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+
+.contentText p {
+  width: 95%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#messageContainer {
+  /* max-width: 1170px; */
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.messageTitle {
+  padding-top: 50px;
+}
+
+.messageTitle p {
+  padding-bottom: 30px;
+}
+
+.message {
+  background-color: #239b76;
+  box-shadow: 0 7px green;
+  opacity: 0.8;
+  margin-bottom: 100px;
+}
+
+.message:active {
+  cursor: pointer;
+  box-shadow: none;
+  opacity: 1;
+  position: relative;
+  top: 7px;
+}
+
+footer {
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+#footerContainer {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#footerContainer img {
+  width: 300px;
+  margin: 15px 20px;
+}
+
+#footerContainer p {
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
