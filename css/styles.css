@@ -48,7 +48,7 @@ header {
 }
 
 #copyWrapper {
-  background-image: url(./copyImage.jpg);
+  background-image: url(/img/copyImage.jpg);
   background-size: cover;
 }
 
